@@ -31,26 +31,20 @@ This interactive Streamlit app lets you simulate the process of delta hedging an
 
 ## 🚀 How to Run
 
-1. Clone the repo:
-
 ```bash
+# 1. Clone the repository
 git clone https://github.com/alextmsn/delta-hedging-simulator.git
 cd delta-hedging-simulator
 
+# 2. (Optional) Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
-2. Install dependencies
-
-```bash
+# 3. Install dependencies
 pip install -r requirements.txt
 
-3. Launch the Streamlit app
-
-```bash
+# 4. Launch the Streamlit app
 streamlit run app.py
-
-
-
-
 
 
 AUTHOUR
